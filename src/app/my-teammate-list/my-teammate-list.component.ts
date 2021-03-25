@@ -10,10 +10,10 @@ export class MyTeammateListComponent implements OnInit {
 
   // create an array of objects:
   myTeammateList: MyTeammate[] = [
-    new MyTeammate('Tran', 'Ngoc Anh', 'Thu'),
-    new MyTeammate('Nguyen', 'Tuan', 'Anh'),
-    new MyTeammate('Nguyen', 'Anh', 'Minh'),
-    new MyTeammate('Nguyen', 'Huu', 'Tri'),
+    new MyTeammate('Tran', 'Ngoc Anh', 'Thu', 2),
+    new MyTeammate('Nguyen', 'Tuan', 'Anh', 1),
+    new MyTeammate('Nguyen', 'Anh', 'Minh', 10),
+    new MyTeammate('Nguyen', 'Huu', 'Tri', 9),
   ];
   constructor() { }
 
