@@ -1,1 +1,22 @@
-app.component.html is the main page
+---> app.component.html is the main page:
+     @Component({
+       selector: 'app-root',
+       templateUrl: './app.component.html', --> link to html file
+       styleUrls: ['./app.component.css'] --> link to css file
+     })
+     In this file, we declare variables to show on html file
+
+---> Create a new component:
+     Step 2:Update main template page
+     Step 3:Generate new component
+     Step 4:Add new component selector --> $ ng generate component my-teammate-list
+     Step 5:Generate a SalePerson Class --> $ ng generate class my-teammate-list/MyTeammate
+     Step 6:In SalePersonListComponent, create sample data
+     Step 7:Build the table by looping data
+
+---> Integrate CSS:
+     Step 1:Get link for remote bootstrap files
+     Step 2:Add link to index
+     Step 3:Apply Bootstrap to html file
+     Step 4:Apply Bootstrap to table
+     Step 5:Update TS component file to reference bootstrap html template
